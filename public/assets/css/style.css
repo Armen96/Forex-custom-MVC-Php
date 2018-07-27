@@ -1,0 +1,247 @@
+body{
+    background-color: #f0f2f1;
+}
+.clean:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* registration page */
+
+.registration_z{
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    border: 1px solid #f2f2f2;
+    padding: 20px;
+    text-align: left;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.registration_row_z{
+    margin-bottom: 10px;
+    color: #415576;
+}
+.reg_input_z{
+    border: 1px solid #CDCCCC;
+	border-radius: 3px;
+    color: #415576;
+    padding: 4px;
+}
+.red_z{
+    color: red;
+}
+
+.half_width_z{
+    width:50%;
+    float: left;
+}
+.registration_btn_div_z{
+    display: flex;
+}
+.registration_btn_z, .adv_buy_btn_z, .buy_item_btn_z{
+    border: 1px solid #67a773;
+    padding: 7px;
+    border-radius: 5px;
+    outline: none;
+    background: #219e1f;
+    margin: auto;
+    cursor: pointer;
+    color:white;
+}
+.reg_h2_z{
+    text-align: center;
+    padding: 17px;
+    color: #415576;
+}
+
+.reg_fb_div_z{
+    width: 70%;
+}
+.reg_fb_div_icon_z{
+    width: 30%;
+    box-sizing: border-box;
+}
+.reg_fb_div_icon_z span{
+    cursor: pointer;
+}
+
+/* registration page end */
+
+/* forgot password page */
+.forgot_pass_p_z{
+    text-align: justify;
+}
+
+.forgot_pass_btn_z{
+    padding: 7px 30px;
+}
+
+/* forgot password page end */
+
+
+/* forex_brokers page */
+
+.forex_content_z{
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    border: 1px solid #f2f2f2;
+    padding: 20px;
+    text-align: left;
+    margin: 0 auto;
+    color: #415576;
+	margin-bottom: 25px;
+}
+.forex_p_z{
+    padding:20px 0px;
+}
+.forex_banner_div_z{
+    height:250px;
+}
+
+/* forex_brokers page end */
+
+
+/* advaisors page */
+.adviser_content_row_z{
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+	border-radius:4px;
+	box-shadow: 3px 2px 14px 2px rgba(8, 8, 8, 0.15);
+}
+.adv_columns_z{
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+    color: #415576;
+}
+.adv_img_div_z, .adv_buy_div_z{
+    width: 27%;
+}
+.adv_buy_div_z{
+    position: relative;
+    height: 254px;
+}
+
+.adv_div_img_z{
+    height:210px;
+    width: 190px;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 1px solid #f2f2f2;
+    margin-bottom: 10px;
+}
+.adv_text_div_z{
+    width: 46%;
+}
+
+.adv_text_z{
+    height: 185px;
+    overflow: hidden;
+}
+.adv_text_p_z{
+    position: relative;
+}
+.more_link_z{
+    font-style: italic;
+    position: absolute;
+    bottom: 0;
+    top: 164px;
+    right: 0;
+    padding: 2px;
+    color: blue;
+}
+.adv_buy_currency_z{
+    margin-bottom: 10px;
+}
+.adv_buy_currency_z p{
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.adv_buy_btn_div_z{
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+}
+.adv_buy_btn_z{
+    padding: 7px 40px;
+}
+.adv_buy_curr_li_z{
+    display: inline-block;
+    width: 32%;
+    text-transform: uppercase;
+}
+.adv_buy_method_div_z{
+    padding: 7px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: none;
+    border: 1px solid #f2f2f2;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.adv_buy_method_icon_z{
+    margin: auto;
+    cursor: pointer;
+}
+
+.pagination_z{
+    position: relative;
+    padding: 5px;
+}
+.pagination_items_z{
+    text-align: center;
+}
+.pagination_item_z{
+    background: #f9f9f9;
+    text-align: center;
+    width: 40px;
+    height: 32px;
+    padding-top: 8px;
+    display: inline-block;
+    margin: auto;
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px solid #d7d7d7;
+    color: #1d1010;
+}
+/* advaisors page end */
+
+.adv_more_text_p_z{
+    text-align: justify;
+}
+.adv_more_text_div_z{
+    width:70%;
+}
+input.i_r_r.log_put {
+    padding: 7px;
+    border: 1px solid #d7d7d7;
+    border-radius: 3px;
+}
+.fb_in{
+	font-size: 29px;
+    color: #3b5998;
+}
+input.my_logout {
+    padding: 7px;
+    border: 1px solid #d7d7d7;
+    border-radius: 3px;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 14px;
+    background:#4267b2 ;
+    margin-right: 4px;
+}
+.log_but{
+	color:#fff;
+	background: #4267b2;
+}
